@@ -1,0 +1,215 @@
+body{
+ background: url(/images/valery.png);
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: right;
+ }
+
+*{
+padding: 0;
+}
+
+.head{
+width: 100%;
+text-decoration: none;
+list-style: none;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0, 0, 0);
+overflow-x: hidden;
+transition: 0.5s;
+border-right: 5px aqua solid;
+}
+.head a:hover{
+ color: #f1f1f1;
+}
+
+.menu li h1 {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+color: #818181;
+display: block;
+transition: 0.3s;
+
+
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #818181;
+  text-decoration: none;
+}
+.menu{
+  line-height: 50px;
+  list-style: none;
+ 
+}
+
+.menu li a{
+    color: #818181;
+    list-style: none;
+    text-shadow: 0px 0px 20px black;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+.name {
+width: 100%;
+    
+}
+
+.name h5{
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black ;
+    margin-top: 170px;
+    margin-left: 80px;
+}
+
+.name h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(243, 243, 243);
+    text-shadow: 0px 0px 38px black;
+    margin-left: 70px;
+    margin-top: -75px;
+}
+
+.fa {
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    font: px;
+    }
+
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+     margin-left: 40px;
+     margin-top: 210px;
+    
+    
+  }
+
+  .fa-whatsapp {
+    background:#25d366;
+    color: white;
+  }
+#open{
+color: whitesmoke;
+}
+
+
+@media only screen and (min-width: 768px){
+.head{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    }
+    .head a:hover{
+      color: #f1f1f1;
+     }
+
+     .menu li h1 {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+}
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #818181;
+  text-decoration: none;}
+    
+  .menu{
+    line-height: 80px;
+    list-style: none;
+    margin-top: 50px;
+    font-size: 25px;
+ 
+  }
+  
+.menu li a{
+  color: #818181;
+  list-style: none;
+  text-shadow: 0px 0px 20px black;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.name {
+width: 100%;
+ margin: 0; 
+          
+
+}
+
+.name h5{
+    font-size: 70px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black ;
+    margin-top: 330px;
+    margin-left: 170px;
+    
+}
+
+.name h2{
+    font-size: 70px;
+    font-weight: bolder;
+    color:rgb(243, 243, 243);
+    text-shadow: 0px 0px 38px rgb(0, 0, 0);
+    margin-left: 169px;
+    margin-top: -129px;
+    
+}
+.fa {
+    font-size: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: px;
+
+       
+  }
+
+  .fa-instagram {
+    background: #8a3ab9;
+    color: white;
+     margin-left: px;
+    margin-top: px;
+    
+  }
+
+  .fa-whatsapp {
+    color: white;
+    }
+}
+/* /***************************IMAGE.HTML******************************/

@@ -1,0 +1,70 @@
+<style>
+
+    #image {
+        background-color: rgb(104, 100, 95);
+    }
+    .porfolio img{
+            float: left;
+            width: 40.100%;
+            padding: 50px 30px;
+            border: 17px solid black;
+}
+</style>
+
+
+<body id="image">
+<div class="porfolio">
+         <div class="column">  
+        <img src="images/IMG_6317.jpg" onclick="onClick(this)" 
+        class="w3-hover-opacity">
+    </div> 
+        <div class="column">
+            <img src="images/valery.png" 
+            onclick="openModal(); currentSlide(2)"
+            class="hover-shadow cursor" alt="">
+        </div>
+        <div class="column">
+        <img src="images/IMG_6281.jpg" 
+        onclick="openModal(); currentSlide(3)" 
+        class="hover-shadow curso" alt="">
+       </div>
+       <div class="column">
+        <img src="images/IMG_5190.jpg" 
+        onclick="openModal(); currentSlide(4)" alt="">
+       </div>
+       <div class="colum">
+        <img src="images/IMG_5332.jpg" 
+        onclick="openModal(); currentSlide(5)" alt="">
+        </div>
+        <div class="colum">
+        <img src="images/IIIMG_4167.jpg" 
+        onclick="openModal(); currentSlide(6)" alt="">
+        </div>
+        <div class="colum">
+        <img src="images/IIIMG_4220.jpg"
+        onclick="openModal(); currentSlide(7)" alt="">
+        </div>
+        <div class="colum">
+        <img src="images/IMG_4244.jpg"
+        onclick="openModal(); currentSlide(8)" alt="">
+        </div>
+    </div>
+
+    <div id="modal01" class="w3-modal" 
+    onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red 
+    w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+        <img id="img01"> 
+    </div>
+</div>
+
+<script>
+    function onClick(element){
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+
+}
+</script>
+
+</body>
